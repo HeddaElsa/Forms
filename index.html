@@ -13,11 +13,10 @@
 <body>
     <div class="screen">
         <div class="main__container">
-            <div class="main__container-left">
                 <form action="" class="form">
                     <div class="form__segment">
                         <label for="name" class="form__label">FULL NAME</label>
-                        <input type="text" id="name" class="form__input" >
+                        <input type="text" id="name" class="form__input" required >
                     </div>
                     <div class="form__segment">
                         <label for="email" class="form__label">EMAIL</label>
@@ -31,17 +30,15 @@
                         <label for="your_message" class="form__label">MESSAGE</label>
                         <textarea name="your_message" id="your_message" placeholder="Your Message" class="form__text" rows="2" ></textarea>
                     </div>
-    
+                    <div>
+                        <button type="submit">SEND MESSAGE</button>
+                    </div>
                 </form>
-            </div>
             <div class="main__container-right">
                 <div class="rectangle__red">
                     <div class="rectangle__orange"></div>
                 </div>
                 <img src="images/hiclipartduck.png" alt="duck">
-                <div>
-                    <button type="submit">SEND MESSAGE</button>
-                </div>
             </div>
         </div>
     </div>

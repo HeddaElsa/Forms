@@ -14,20 +14,34 @@
     position: relative;
     width: 954px;
     height: 594px;
+    border: #BE0909 solid 2px;
 }
 
-.main__container-left {
+button {
+    color: #FEFFFF;
+    background-color: #468189;
+    border-radius: 40px;
+    border-style: none;
+    font-size: 18px;
+    font-family: "Roboto", serif;
+    height: 48px;
+    width: 202px;
+    position: absolute;
+    bottom: 64px;
+    left: 164px;
+}
+
+/* .main__container-left {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    position: relative;
     z-index: 1;
     justify-content: center;
     align-items: center;
-    height: 594px;
-    width: 609px;;
-}
+    max-width: 609px;
+    width: 100%;
+    border: #468189 solid 2px;
+} */
 
 .form {
     display: flex;
@@ -47,7 +61,6 @@
 }
 
 .rectangle__red {
-    position: relative;
     width: 954px;
     height: 594px;
     display:flex;
@@ -78,20 +91,6 @@ img {
     color: #FEFFFF;
 }
 
-button {
-    color: #FEFFFF;
-    background-color: #468189;
-    border-radius: 40px;
-    border-style: none;
-    font-size: 18px;
-    font-family: "Roboto", serif;
-    height: 48px;
-    width: 202px;
-    position: absolute;
-    bottom: 64px;
-    left: 160px;
-}
-
 .form__text {
     background-color: transparent;
     color: #FEFFFF;
@@ -120,7 +119,11 @@ button {
     color: #FEFFFF;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
-    letter-spacing: 30;
+    letter-spacing: 30%;
     line-height: auto;
     font-style: normal;
+}
+
+button:hover {
+    background-color: #1f555c;
 }
