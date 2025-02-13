@@ -115,3 +115,11 @@ img {
 button:hover {
     background-color: #1f555c;
 }
+
+.form__input:hover {
+    background-color: #aa0505;
+}
+
+.form__text:hover {
+    background-color: #aa0505;
+}
